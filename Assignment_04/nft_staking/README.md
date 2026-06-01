@@ -73,24 +73,8 @@ cargo test
 
 Expected output:
 
-```
-running 13 tests
-test test_initialize_user_creates_account ... ok
-test test_stake_increments_user_amount_staked ... ok
-test test_initialize_config_stores_values ... ok
-test test_initialize_config_creates_reward_mint ... ok
-test test_stake_creates_stake_account ... ok
-test test_claim_rewards_updates_last_update ... ok
-test test_claim_rewards_mints_tokens ... ok
-test test_claim_rewards_does_not_unstake ... ok
-test test_claim_by_non_owner_fails ... ok
-test test_max_stake_enforced ... ok
-test test_unstake_before_freeze_period_fails ... ok
-test test_unstake_closes_stake_account ... ok
-test test_unstake_after_claim_rewards_succeeds ... ok
+<img width="710" height="427" alt="Screenshot 2026-06-01 at 9 52 15 PM" src="https://github.com/user-attachments/assets/e50e3e8b-c63a-4eca-b249-0e98210a0a3b" />
 
-test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
-```
 
 ## Test Coverage
 
