@@ -1,0 +1,11 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+dist
+build
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+tests/programs/*.so

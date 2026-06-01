@@ -1,0 +1,18 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+nft_staking = "6xBXPR7MpTSa8x3gaTUXQ1WfY7Q3prjTg9HKBiWFJDAh"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]
